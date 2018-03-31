@@ -12,7 +12,7 @@ def pretty_print_json(data):
 
 
 if __name__ == '__main__':
-    if ".json" in sys.argv:
+    if len(sys.argv) > 1:
         file_path = sys.argv[1]
     else:
         file_path = input("Please, input correct file path: ")
