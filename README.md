@@ -70,13 +70,6 @@ $ python3 pprint_json.py qwer.json
     }
 ]
 
-```
-Example of script launch on Linux, Python 3.5 without parameter:
-```bash
-$ python3 pprint_json.py
-Please, input correct file path: qwer.json
-...
-```
 
 # Project Goals
 
