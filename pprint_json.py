@@ -8,11 +8,11 @@ def load_data(path):
 
 
 def pretty_print_json(data):
-    return json.dumps(data, indent=4, sort_keys=True)
+    return json.dumps(data, ensure_ascii=False, indent=4, sort_keys=True)
 
 
 if __name__ == '__main__':
-    if ".json" in sys.argv[1]:
+    if ".json" in sys.argv:
         file_path = sys.argv[1]
     else:
         file_path = input("Please, input correct file path: ")
